@@ -69,8 +69,7 @@
 
 	\begin{figure}[tb]
 		\centering
-		\includegraphics[width = 5.5cm, height = 5.5cm]{dwarf_planets}
-		\label{fig:figure1}
+		\includegraphics[width = 5.5cm, height = 5.5cm]{dwarf_planets_kb.jpg}
 	\end{figure}
 
 	%\end{enumerate}
@@ -93,31 +92,63 @@
 	%\begin{block}{2012 updates}
 		%The new package is streamlined for nicer code. Also uses \texttt{fontspec} for \textit{XeLaTeX} support. MYou can now abuse fonts.
 	%\end{block}
+Haumea is a \textbf{very elongated} and \textbf{rapidly rotating} body.
 	
 \end{frame}
 
-\begin{frame}[c]{Stellar Occultation}{}
+\begin{frame}[c]{Haumea}{}
 
-\begin{itemize}
-	\item The first consistent efforts for the prediction of stellar occultations by Pluto are described in Mink \& Klemola (1985) and cover the period 1985-1990.
-	\item McDonald \& Elliot (2000a,b) prediction, now covering the period 1999-2009.
-\end{itemize}
-\pause
-\begin{alertblock}{}
-	Two important common limitations were the  \textcolor{black}{\textbf{astrometric precision of about only 0''.2}} and the lack of \textcolor{black}{\textbf{stellar proper motions}} leading to uncertainties on the order of the Earth radius for the predicted shadow paths. Also, these earlier predictions were degraded by \textcolor{black}{\textbf{poorer precision of older ephemerides}}, an issue which changed with the constant feed of new Pluto positions.
-\end{alertblock}	
-	%\begin{exampleblock}{Example Block}
-		%Example block. (Potential uses: list of pros, relaxing facts)
-	%\end{exampleblock}	
-\pause
-	\begin{block}{}
-		To overcome these and other problems, we carried out an observational program at the ESO2p2/WFI instrument during 2007
-	\end{block}
+	\begin{columns}[t]
+	\begin{column}[T]{5cm}
+	\vspace{0.3cm}
+	 In contrast to other dwarf planets its:
+	\setbeamercovered{transparent}	
+	\begin{itemize}[<+->]
+		\item Size 
+		\item Shape
+		\item Albedo
+		\item Density
+	\end{itemize}
+	are not well constrained.
+
+	\end{column}
+
+	\begin{column}[T]{5cm}
+		\vspace{-0.5 cm}
+		\begin{figure}[tb]
+		\centering
+		\includegraphics[width = 5cm, height = 5cm]{haumea-ring.jpg}
+	\end{figure}
+
+	\end{column}
+	\end{columns}
+
+\end{frame}
+%-------------------------------------------------------------
+
+\begin{frame}[c]{Stellar Occultation}
+Occultation of the star URAT1 533-182543 by the dwarf planet Haumea. Positive occultation detections were obtained on 21 January 2017, predicted time (around 3:09 ut).
+	\begin{figure}[tb]
+		\centering
+		\includegraphics[scale = 0.23]{observatories_map}
+	\end{figure}
 \end{frame}
 
 %-------------------------------------------------------------
 
-\begin{frame}[c]{}
+\begin{frame}[c]{Light Curves}
+\scriptsize
+\justifying 
+\vspace{-0.2 cm}
+	\begin{figure}[tb]
+		\centering
+		\includegraphics[width = 8cm, height = 6cm]{light_curve_haumea_occultation}
+	\end{figure}
+\vspace{-0.2 cm}
+\begin{block}{}
+Because the drops are abrupt, Haumea must lack a global Pluto-like atmosphere. An upper limit atmosphere is determined to be 15 nbar (N) and 50 nbar (CH4).
+\end{block}
+
 % \begin{itemize}
 % \item This is \color{crimsonred}{crimsonred}\usebeamercolor[fg]{normaltext}.
 % \item This is \color{charcoal}{charcoal}\usebeamercolor[fg]{normaltext}.
@@ -149,86 +180,58 @@
 
 %You can use the \alert{\texttt{textcolor}} command to use these, but the goal is to do things in a way where there are no calls to explicit colors, just user-adjustable values.
 
-\begin{itemize}
-	\item Estudar as propriedades de Pluto e suas luas é essencial para entender os Transnetunianos. Os quais são importantes para comprender a estrutura e evolução do Sistema Solar.
-	\item 
-\end{itemize}
 \end{frame}
-
 %-------------------------------------------------------------
 
-\section{Stellar occultation predictions: astrometric rationale}
-\begin{frame}[c]{Color styles}
-	These are some useful pre-defined color styles.
-	
-		\begin{columns}[t]
-		\begin{column}[T]{5cm}
-			\begin{itemize}
-			\item This is \alert{alert}.
-			\item This is \Alert{Alert}.
-			\item This is \ALERT{ALERT}.
-			% \item This is \alert3{alert3}.
-			\end{itemize}
+\begin{frame}[c]{}
+\scriptsize
+\justifying
+Square-well fits to the drops provide the times of star disappearance and reappearance at each site. Those times define an occultation chord for each site, and an elliptical fit to the extremities of the chord provides the instantaneous limb of Haumea.
+
+	\begin{columns}[t]
+	\begin{column}[T]{5cm}
+		\begin{figure}[tb]
+			\centering
+			\includegraphics[width=\textwidth]{ellipse_haumea_projection}
+		\end{figure}
 		\end{column}
+	\begin{column}[T]{5cm}
+	\vspace{2 cm}
+	\begin{itemize}
+		\item $a = 1704 \pm 4 km$
+		\item $b = 1138 \pm 26 km$
+		\item $PA = -76,3 \pm 1.2^{\circ}$ 
+	\end{itemize}
+	\end{column}
+	\end{columns}
 
-		\begin{column}[T]{5cm}
-			\begin{itemize}
-			\item This is \comment{comment}.
-			\item This is \Comment{Comment}.
-			\item This is \COMMENT{COMMENT}.
-			% \item This is \textcolor{charcoal}{comment3}.
-			\end{itemize}
-		\end{column}
-		\end{columns}
-		\vspace{1em}
-		Some colors like \textcolor{FlipGreen}{FlipGreen} and \textcolor{FlipSand}{FlipSand} will automatically change tint when when you define light or dark backgrounds. \Comment{This makes it easier to swap between light/dark backgrounds by just modifying one option and recompiling.}
-		
-		\vspace{1em}
-		\Comment{The `comment' styles are automatically footnote-sized.}
 \end{frame}
 
 %-------------------------------------------------------------
 
-\section{Observation at ESO}
-
-\begin{frame}[t]{Absolute placement}
-
-%% Compare when you turn this on:
-	% \uncover<2->
-	% {
-	% 	\begin{picture}(0,0)(0,0)
-	% 		\put(10,-250)
-	% 		{\includegraphics[width=7cm]{TRex}}
-	% 	\end{picture}
-	% }
-
-This slide demonstrates
-\begin{itemize}
-	\item \alert{absolute placement}  of images using the \texttt{put} command in the \texttt{picture} environment.
-	\item Note the overlap. Further, note that the particular depend on where the picture is defined. \\
-	\comment{If you define the picture at the top of the slide, then it will have fixed coordinates (using the [t] alignment). The cost is that the image is then behind all the text.}
-	\item Beamer respects \texttt{png} and \texttt{pdf} transparencies.
-\end{itemize} 
-
-\uncover<2->
-{
-	\begin{picture}(0,0)(0,0)
-		\put(10,-100)
-		{\includegraphics[width=7cm]{TRex}}
-	\end{picture}
-}
-
-	\vspace{1 em}
-	\footnotesize{\Comment{Image: \url{http://www.smbc-comics.com/index.php?db=comics\&id=2109}}
-	\vspace{1 em}
-	\comment{Some alternatives for placing images:
-	\url{http://www.texample.net/tikz/examples/transparent-png-overlay/}}}
-	\normalsize
+\begin{frame}[t]{Haumea's Ring}
+\scriptsize
+\justifying
+In addition to the main occultation, there are brief dimmings before and after the main event.
+	\begin{columns}[t]
+	\begin{column}[T]{5cm}
+		\begin{figure}[tb]
+			\centering
+			\includegraphics[width = 4.5cm, height = 6cm]{ring_haumea}
+		\end{figure}
+	\end{column}
+	\begin{column}[T]{5cm}
+	\begin{itemize}
+		\item Opacity $=$ 0.5
+		\item $a^{'}_{ring} = 2287$
+	\end{itemize}
+	\end{column}
+	\end{columns}
+ 
 \end{frame}
 
 %-------------------------------------------------------------
 
-\section{Astrometry}
 \begin{frame}[c]{Columns}{Sometimes it's useful to split the screen}
 	Test why is it gray?
 	

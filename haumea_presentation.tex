@@ -92,13 +92,14 @@
 \usepackage{tikzfeynman}		% For Feynman diagrams
 \usepackage{ragged2e}
 \usepackage{media9}
+\usepackage[none]{hyphenat}
 % \usepackage{subfig}           % for sub figures
 % \usepackage{young}			% For Young Tableaux
 % \usepackage{xspace}			% For spacing after commands
 % \usepackage{wrapfig}			% for Text wrap around figures
 % \usepackage{framed}
 \addtobeamertemplate{block begin}{}{\justifying}  %new code
-
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm} 
 \graphicspath{{images/}}	% Put all images in this directory. Avoids clutter.
 
 
